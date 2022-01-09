@@ -6,7 +6,7 @@ function generar(numero) {
         if(divisible(i,3)) {
             resultado.innerHTML += "fizz";
         }
-        if(divisible(i,5)==true) {
+        if(divisible(i,5)) {
             resultado.innerHTML += " buzz";
         }
         if(!divisible(i,3) && !divisible(i,5)) {
